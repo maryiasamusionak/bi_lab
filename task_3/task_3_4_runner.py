@@ -1,4 +1,4 @@
-from task_3_4_pytasks import *
+from task_3_4_pytasks import *  # noqa
 
 
 def output(arg):
