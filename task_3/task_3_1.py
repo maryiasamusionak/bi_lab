@@ -8,7 +8,7 @@ print(list1, list2)
 sliced_list2 = list2[::2]
 print(sliced_list2)
 
-# list 2
+# list 3
 list3 = [str(c) + 'a' for c in range(1, 5)]
 print(list3)
 
