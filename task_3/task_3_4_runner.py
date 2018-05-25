@@ -1,0 +1,31 @@
+from task_3_4_pytasks import *
+
+
+def output(arg):
+    result = eval(arg + '()')
+    print("Demonstrating function", arg, ":\n", result)
+    return False
+
+
+def runner(*args):
+    flag = True
+    for arg in args:
+        if arg == 'generate_numbers':
+            flag = output(arg)
+        elif arg == 'count_characters':
+            flag = output(arg)
+        elif arg == 'fizzbuzz':
+            flag = output(arg)
+        elif arg == 'poly':
+            flag = output(arg)
+        elif arg == 'happy_numbers':
+            flag = output(arg)
+    if flag:
+        output('generate_numbers')
+        output('count_characters')
+        output('fizzbuzz')
+        output('poly')
+        output('happy_numbers')
+
+
+runner()
