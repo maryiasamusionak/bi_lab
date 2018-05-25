@@ -10,15 +10,6 @@ def output(arg):
 def runner(*args):
     flag = True
     for arg in args:
-        if arg == 'generate_numbers':
-            flag = output(arg)
-        elif arg == 'count_characters':
-            flag = output(arg)
-        elif arg == 'fizzbuzz':
-            flag = output(arg)
-        elif arg == 'poly':
-            flag = output(arg)
-        elif arg == 'happy_numbers':
             flag = output(arg)
     if flag:
         output('generate_numbers')
@@ -28,4 +19,4 @@ def runner(*args):
         output('happy_numbers')
 
 
-runner()
+runner('fizzbuzz', 'generate_numbers')
