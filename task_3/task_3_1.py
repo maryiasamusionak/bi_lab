@@ -1,8 +1,8 @@
 # list
 list1 = [1, 2, 3]
 
-list2 = [a + b for a in 'abc' if a != 'c' for b in 'bcd' if b != 'a']
-print(list1, list2)
+list2 = [a + b for a in 'ab' for b in 'bcd']
+print(list2)
 
 # slice
 sliced_list2 = list2[::2]
