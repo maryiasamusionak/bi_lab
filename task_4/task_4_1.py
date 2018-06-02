@@ -1,6 +1,6 @@
-import pandas as pd
-import numpy as np
 import csv
+import numpy as np
+import pandas as pd
 
 data = pd.read_csv('IMDB-Movie-Data.csv')
 year_rating = data.groupby('Year')
