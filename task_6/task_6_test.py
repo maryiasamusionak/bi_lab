@@ -1,5 +1,7 @@
+from task_6_program import count_characters
+from task_6_program import fizzbuzz
+from task_6_program import poly
 import unittest
-from task_6_program import poly, count_characters, fizzbuzz
 
 
 class Test(unittest.TestCase):
