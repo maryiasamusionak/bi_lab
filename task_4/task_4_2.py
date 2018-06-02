@@ -28,9 +28,12 @@ class CinemaTickets(object):
         print("Ticket price: ", self.ticket_price)
 
 
-visitor1 = CinemaTickets('Interstellar', 'Big blue', 5, 12, '01.06.2018', '18.00', 7)
-visitor2 = CinemaTickets('Paint It Black', 'Small red', 6, 13, '02.06.2018', '18.00', 5)
-visitor3 = CinemaTickets('Paint It Black', 'Small red', 6, 14, '02.06.2018', '18.00', 5)
+visitor1 = CinemaTickets('Interstellar',
+                         'Big blue', 5, 12, '01.06.2018', '18.00', 7)
+visitor2 = CinemaTickets('Paint It Black',
+                         'Small red', 6, 13, '02.06.2018', '18.00', 5)
+visitor3 = CinemaTickets('Paint It Black',
+                         'Small red', 6, 14, '02.06.2018', '18.00', 5)
 visitor1.print_info()
 visitor2.print_info()
 visitor3.print_info()
